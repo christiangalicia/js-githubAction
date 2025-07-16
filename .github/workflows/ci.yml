@@ -1,0 +1,26 @@
+name: CI Pruebas JS # Nombre del workflow
+
+on: # Define los eventos que activan el workflow
+  push: 
+    branches: [ main ] 
+  pull_request: # Cuando hay un pull request
+    branches: [ main ] 
+
+jobs: # Definición de los trabajos a ejecutar
+  build: 
+    runs-on: ubuntu-latest 
+
+    steps: # Pasos a ejecutar en el job
+      - name: Checkout repositorio # Paso para clonar el repositorio
+        uses: actions/checkout@v3 # Usa la acción oficial de checkout
+
+      - name: Instalar Node.js #
+        uses: actions/setup-node@v4 #
+        with:
+          node-version: '18' 
+
+      - name: Instalar dependencias 
+        run: npm install # Ejecuta el comando para instalar dependencias
+
+      - name: Ejecutar pruebas
+        run: npm test # Ejecuta el comando para correr las pruebas
