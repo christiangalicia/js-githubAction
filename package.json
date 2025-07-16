@@ -1,15 +1,7 @@
 {
-    "name": "js-githubaction",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"No test specified\" && exit 0"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "directories": {
-        "test": "test"
-    },
-    "description": ""
+"name": "js-github-action",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node test/operaciones.test.js"
+  }
 }
