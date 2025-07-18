@@ -27,8 +27,8 @@ test("Suma 2 + 2 = 4", () => {
 test("Suma 3 + 0 = 3", () => {
   assertEquals(suma(3, 0), 3);
 });
-test("Suma 3 + 3 = 6", () => {
-  assertEquals(suma(3, 3), 6);
+test("Suma 3 + 2 = 5", () => {
+  assertEquals(suma(3, 2), 5);
 });
 
 test("Dividir 4 / 2 = 2", () => {
