@@ -1,0 +1,1 @@
+https://www.facebook.com/v22.0/dialog/oauth?client_id=1659994251620413&redirect_uri=https%3A%2F%2Flareformaputla.gob.mx%2Frest%2Foauth2-credential%2Fcallback&response_type=code&state=eyJ0b2tlbiI6IlUxMUVlbjhnLUNrblRJdFNQWEZkWUZGaUw0M0ZUZnEzQ05fSSIsImNpZCI6IjZzU3UxTHF6WmVxNDNPSTMiLCJjcmVhdGVkQXQiOjE3NTI3MDcyODk3NTF9&scope=pages_show_list+pages_manage_posts+pages_read_engagement+
